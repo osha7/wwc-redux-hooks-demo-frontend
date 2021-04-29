@@ -7,7 +7,7 @@ function Musicians(props) {
 
         let musicians = props.musicians
         
-        const musiciansMapped = props.musicians.map(musician => <IndivMusician musician={musician} />)
+        const musiciansMapped = musicians.map(musician => <IndivMusician musician={musician} key={musician.id} />)
 
         return (
             <div>

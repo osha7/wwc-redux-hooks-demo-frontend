@@ -7,7 +7,7 @@ export const getMusicians = () => (dispatch) => {
     fetch(API_URL + '/musicians')
     .then(res => res.json())
     .then(data => {
-        console.log("data", data)
+        // console.log("data", data)
         return dispatch({ type: FETCH_MUSICIANS_SUCCESS, payload: data })
     })
     .catch(err => {
