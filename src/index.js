@@ -19,7 +19,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
     <App1 />
-    <App2 />  
+    {/* <App2 />   */}
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')

@@ -1,3 +1,4 @@
+
 import './App.css';
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
@@ -19,7 +20,6 @@ function App2() {
     },[])
 
     if (musicians.length > 0) {
-
         return (
             // console.log("musicians", musicians),
             <div className="App">
@@ -30,7 +30,7 @@ function App2() {
     } else {
         return (
             <div>
-                <h1>There are no musicians at this time.</h1>
+                <h1>Loading...</h1>
             </div>
         )
     }
