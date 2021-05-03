@@ -17,7 +17,7 @@ class App1 extends React.Component {
         console.log("props App1", this.props),
         <div className="App">
           <h1>Female Musicians</h1>
-          <h2>Class Component &amp; Redux</h2>
+          <h2 style={{color: "purple"}} >Class Component &amp; Redux</h2>
           <Musicians musicians={this.props.musicians} />
         </div>
       );

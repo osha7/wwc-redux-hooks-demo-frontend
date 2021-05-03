@@ -24,6 +24,7 @@ function App2() {
             // console.log("musicians", musicians),
             <div className="App">
                 <h1>Female Musicians</h1>
+                <h2 style={{color: "blue"}} >Functional Component &amp; Redux Hooks</h2>
                 <Musicians musicians={musicians} />
             </div>
         );

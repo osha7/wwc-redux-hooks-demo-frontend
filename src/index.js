@@ -8,7 +8,8 @@ import App2 from './App2';
 import { createStore, applyMiddleware } from 'redux';
 // Thunk:
 import thunk from "redux-thunk";
-// The <Provider> component makes the Redux store available to any nested components that need to access the Redux store.
+// The <Provider> component makes the Redux store available 
+// to any nested components that need to access the Redux store.
 import { Provider } from 'react-redux'; 
 // Reducers:
 import rootReducer from './redux/reducers/combineReducers';
@@ -19,7 +20,8 @@ ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
     <App1 />
-    {/* <App2 />   */}
+    <br />
+    <App2 />  
     </Provider>
   </React.StrictMode>,
   document.getElementById('root')
