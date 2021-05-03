@@ -6,7 +6,7 @@ import App2 from './App2';
 
 // Redux:
 import { createStore, applyMiddleware } from 'redux';
-// Thunk:
+// Thunk: allows us to return functions from actions instead of plain old objects
 import thunk from "redux-thunk";
 // The <Provider> component makes the Redux store available 
 // to any nested components that need to access the Redux store.
